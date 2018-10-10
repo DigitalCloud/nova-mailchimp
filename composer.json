@@ -1,0 +1,34 @@
+{
+    "name": "digitalcloud/nova-mailchimp",
+    "description": "A Laravel Nova tool for manage MailChimp lists and campaigns",
+    "keywords": [
+        "laravel",
+        "nova",
+        "mailchimp",
+        "lists",
+        "campaigns",
+        "maillist"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "spatie/laravel-newsletter": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Digitalcloud\\NovaMailchimp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Digitalcloud\\NovaMailchimp\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
